@@ -1,0 +1,41 @@
+.input-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0.7rem;
+
+  label {
+    width: 100%;
+    margin-bottom: 0 !important;
+  }
+
+  input, select, textarea {
+    width: 100%;
+    border-radius: .3rem!important;
+    padding: .8rem;
+    height: auto;
+
+    -webkit-box-shadow: 2px 2px 8px #afafaf;
+    -moz-box-shadow: 2px 2px 8px #afafaf;
+    box-shadow: 2px 2px 8px #afafaf;
+  }
+
+  input.card-input, input.inline-card-input {
+    max-width: 600px;
+  }
+
+  input.inline-card-input {
+
+    @media (min-width: 640px) {
+      max-width: 292px;
+    }
+  }
+
+  input:hover, select:hover {
+  }
+
+  input:focus, select:focus {
+    outline: none !important;
+    border-color: #ac0431 !important;
+  }
+}

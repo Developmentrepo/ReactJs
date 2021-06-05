@@ -1,0 +1,42 @@
+.page-title-batch {
+    font-size: 2rem;
+}
+
+.lists-table {
+    .dx-g-bs4-table {
+        font-size: 14px;
+
+        tbody {
+            td {
+                vertical-align: middle;
+            }
+        }
+
+        thead {
+            th {
+                border-top: none;
+                font-weight: 400;
+                color: gray;
+                font-size: 13px;
+            }
+        }
+
+        .btn-link {
+            color: #ac0431;
+            font-size: 14px;
+        }
+
+        input {
+            &[readonly] {
+                border: none;
+                background: transparent;
+
+                &:hover,
+                &:active,
+                &:focus {
+                    box-shadow: none !important;
+                }
+            }
+        }
+    }
+}

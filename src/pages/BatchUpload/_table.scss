@@ -1,0 +1,23 @@
+.check-header, .mapped-data-table {
+  table {
+    min-width: 100%;
+    overflow-x: scroll;
+  }
+
+  th {
+    font-weight: bold;
+  }
+
+  table, th, td {
+    border: 1px solid #aaaaaa;
+    border-collapse: collapse;
+    color: #424242;
+  }
+}
+
+.mapped-data-table {
+  overflow: scroll;
+  width: auto;
+  height: 50vh!important;
+  padding: 1rem;
+}

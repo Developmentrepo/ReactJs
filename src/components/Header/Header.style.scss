@@ -1,0 +1,16 @@
+
+.nav-link {
+  cursor: pointer;
+  padding: 0 .8rem !important;
+  font-size: 1.2rem;
+}
+
+.nav-item.active {
+  font-weight: bold;
+}
+
+.btn_tour {
+  background: transparent;
+  border: 0px;
+  color: rgba(255, 255, 255, 0.5);
+}

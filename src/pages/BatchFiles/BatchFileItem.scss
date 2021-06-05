@@ -1,0 +1,16 @@
+tr {
+  border: 1px solid #eaeaea;
+
+  td {
+    padding: 8px;
+
+    :first-child {
+      color: #424242;
+      font-size: 1.2rem;
+    }
+
+    i {
+      cursor: pointer;
+    }
+  }
+}

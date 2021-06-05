@@ -1,0 +1,36 @@
+.page-title-batch {
+    font-size: 2rem;
+}
+
+.assistant-table {
+    margin-top: 20px;
+    width: 100%;
+
+    td {
+        background: #dee2e6;
+        border-bottom: solid 15px white;
+        font-size: 14px;
+        vertical-align: middle;
+
+        &:first-child {
+            color: #ac0431;
+        }
+    }
+}
+
+.batch-trace-btn,
+.add-assistant-btn {
+    float: right;
+    margin-top: 4px;
+    background: #ac0431;
+    border-color: #ac0431;
+    font-weight: 500;
+
+    &:hover,
+    &:active,
+    &:focus {
+        background: #ec2d60 !important;
+        border-color: #ec2d60 !important;
+        box-shadow: none !important;
+    }
+}

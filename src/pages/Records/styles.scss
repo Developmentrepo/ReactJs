@@ -1,0 +1,109 @@
+.page-title-batch {
+    font-size: 2rem;
+    float: left;
+}
+
+.nav-tabs {
+    width: 100%;
+
+    .nav-item {
+        border: none !important;
+        color: black;
+
+        &.active {
+            border-bottom: solid 2px #ac0431 !important;
+        }
+
+        &:focus {
+            outline: none !important;
+        }
+    }
+}
+
+.tab-content {
+    width: 100%;
+}
+
+.records-tabs {
+    .dx-g-bs4-table {
+        font-size: 14px;
+
+        thead {
+            th {
+                border-bottom: none;
+                font-weight: 400;
+                color: gray;
+                font-size: 13px;
+            }
+        }
+
+        tbody {
+            td {
+                vertical-align: middle;
+                padding: 5px .75rem;
+            }
+        }
+    }
+}
+
+.filter-btn {
+    background: #ac0431;
+    border-color: #ac0431;
+
+    &:hover,
+    &:active,
+    &:focus,
+    &:visited {
+        background: #ec2d60 !important;
+        border-color: #ec2d60 !important;
+        box-shadow: none !important;
+    }
+}
+
+.filter-modal {
+    height: 100%;
+
+    .modal-content {
+        height: 100%;
+        border: none;
+
+        .modal-body {
+            padding: 0;
+            overflow-y: auto;
+
+            .row {
+                margin: 15px 0px;
+            }
+
+            .card {
+                .card-header {
+                    padding: 4px 15px;
+                    font-size: 13px;
+                    font-weight: 600;
+                }
+                .card-body {
+                    padding: 0;
+
+                    .col:first-child {
+                        padding-right: 0;
+                    }
+                }
+                .col {
+                    padding: 0px 15px;
+                }
+            }
+        }
+
+        .modal-footer {
+            border: none;
+            border-radius: 0;
+            padding: 0;
+
+            button {
+                height: 60px;
+                border-radius: 0;
+                margin: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.dropzone {
+  //margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #424242;
+  padding: 2rem;
+  cursor: pointer;
+
+  p {
+    padding: 8px 16px;
+    background-color: #ac0431;
+    color: #ffffff;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    box-shadow: 1px 2px 10px #666666;
+  }
+}

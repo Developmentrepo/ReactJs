@@ -1,0 +1,146 @@
+.page-title-batch {
+    font-size: 2rem;
+    float: left;
+}
+
+.nav-tabs {
+    width: 100%;
+
+    .nav-item {
+        border: none !important;
+        color: black;
+
+        &.active {
+            border-bottom: solid 2px #ac0431 !important;
+        }
+
+        &:focus {
+            outline: none !important;
+        }
+    }
+}
+
+.tab-content {
+    width: 100%;
+}
+
+.batchListTable {
+    .dx-g-bs4-table {
+        font-size: 14px;
+
+        thead {
+            th {
+                border-bottom: none;
+                font-weight: 400;
+                color: gray;
+                font-size: 13px;
+            }
+        }
+
+        tbody {
+            td {
+                vertical-align: middle;
+            }
+        }
+    }
+}
+
+.batch-trace-btn {
+    margin-top: 2px;
+    margin-left: 20px;
+    background: #ac0431;
+    border-color: #ac0431;
+    font-weight: 500;
+
+    &:hover,
+    &:active,
+    &:focus {
+        background: #ec2d60 !important;
+        border-color: #ec2d60 !important;
+        box-shadow: none !important;
+    }
+}
+
+.batch-trace-modal {
+    .modal-content {
+        padding: 0 35px;
+        margin: auto;
+        width: 70%;
+
+        .modal-header {
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        .modal-body {
+            margin-top: 20px;
+            background: #ffc0cb26;
+            font-size: 15px;
+
+            .col:first-child {
+                text-align: center;
+            }
+
+            .download-template {
+                color: black;
+                font-size: 14px;
+                font-weight: 500;
+
+                i {
+                    margin-right: 10px;
+                    color: #ac0431;
+                }
+            }
+        }
+
+        .modal-footer {
+            display: inline;
+            border-top: none;
+            text-align: center;
+            padding: 20px;
+
+            .batch-trace-btn {
+                float: none;
+                color: white;
+                font-weight: 500;
+                padding: 6px 30px;
+                border-radius: 4px;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+.batch-confirm-modal {
+    .modal-content {
+        width: 100%;
+    }
+
+    .modal-body {
+        margin-top: 10px !important;
+        background: white !important;
+        padding: 0px !important;
+
+        .col:first-child {
+            text-align: left !important;
+        }
+
+        .list-group-item {
+            border: none;
+            padding: 2px 10px;
+        }
+    }
+}
+
+.download-template {
+    font-weight: 600;
+}
+
+.flatfile-root {
+    h1 {
+        background: #fff3cd;
+        padding: 10px;
+        border-color: #ffeeba;
+        border-radius: 5px;
+    }
+}

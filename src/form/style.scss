@@ -1,0 +1,33 @@
+.form-group {
+
+  label {
+    display: block;
+    text-align: left;
+    font-size: 18px;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .form-control {
+    background-color: rgba(0, 0, 0, 0.035) !important;
+    border-radius: 0 !important;
+    border-top: 0 !important;
+    border-right: 0 !important;
+    border-left: 0 !important;
+    border-bottom: 2px solid #e5dba5 !important;
+    padding: 25px 15px;
+  }
+
+  .form-control:hover {
+    border-bottom: 2px solid #b7921c !important;
+  }
+
+  .form-control:focus {
+    background-color: #efefef !important;
+    border-bottom: 2px solid #b7921c !important;
+  }
+
+  .control-error {
+    border-bottom: 2px solid #bf5747 !important;
+  }
+}

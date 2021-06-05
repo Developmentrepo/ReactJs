@@ -1,0 +1,42 @@
+.table-responsive {
+    overflow-x: scroll;
+}
+
+.single-search-table {
+    width: 100%;
+    min-width: 710px;
+    border-collapse: collapse;
+    overflow: scroll;
+
+    th {
+        border: 1px solid #f6f6f6;
+        background-color: #ac0431;
+        color: #f6f6f6;
+        font-size: 0.9rem;
+        font-weight: normal;
+        padding: 8px 0;
+    }
+
+    td {
+        padding: 8px 0;
+        font-weight: bold;
+        text-align: center;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 639px) {
+    .single-search-table {
+        min-width: auto;
+
+        th {
+            font-size: 0.8rem;
+            padding: 6px 0;
+        }
+
+        td {
+            padding: 6px 0;
+            font-size: 0.8rem;
+        }
+    }
+}
